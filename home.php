@@ -60,7 +60,7 @@
     </div>
 
     <div class="content" data-aos="fade-up">
-      <h3>adventure is wortwhile</h3>     
+      <h3>adventure is worthwhile</h3>     
       <a href="login_form.php" class="btn">explore now</a>
     </div>
 
@@ -82,7 +82,7 @@
         </div>
         <div class="content">
           <div class="price">290.0<span>350.99</span></div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+          <p>Descripiton.</p>
           <a href="login_form.php" class="btn"> book now </a>
         </div>
       </div>
@@ -94,7 +94,7 @@
         </div>
         <div class="content">
           <div class="price">290.0<span>350.99</span></div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+          <p>Descripiton.</p>
           <a href="login_form.php" class="btn"> book now </a>
         </div>
       </div>
@@ -106,7 +106,7 @@
         </div>
         <div class="content">
           <div class="price">290.0<span>350.99</span></div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+          <p>Descripiton.</p>
           <a href="login_form.php" class="btn"> book now </a>
         </div>
       </div>
@@ -118,7 +118,7 @@
         </div>
         <div class="content">
           <div class="price">290.0<span>350.99</span></div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+          <p>Descripiton.</p>
           <a href="login_form.php" class="btn"> book now </a>
         </div>
       </div>
@@ -130,7 +130,7 @@
         </div>
         <div class="content">
           <div class="price">290.0<span>350.99</span></div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+          <p>Descripiton.</p>
           <a href="login_form.php" class="btn"> book now </a>
         </div>
       </div>
@@ -142,7 +142,7 @@
         </div>
         <div class="content">
           <div class="price">290.0<span>350.99</span></div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+          <p>Descripiton.</p>
           <a href="login_form.php" class="btn"> book now </a>
         </div>
       </div>
@@ -163,42 +163,42 @@
         <span>01</span>
         <i class="fas fa-hotel"></i>
         <h3>affordable hotels</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+        <p>Descripiton.</p>
       </div>
 
       <div class="box" data-aos="zoo-in">
         <span>02</span>
         <i class="fas fa-plane"></i>
         <h3>affordable hotels</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+        <p>Descripiton.</p>
       </div>
 
       <div class="box" data-aos="zoo-in">
         <span>03</span>
         <i class="fas fa-utensils"></i>
         <h3>affordable hotels</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+        <p>Descripiton.</p>
       </div>
 
       <div class="box" data-aos="zoo-in">
         <span>04</span>
         <i class="fas fa-globe"></i>
         <h3>affordable hotels</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+        <p>Descripiton.</p>
       </div>
 
       <div class="box" data-aos="zoo-in">
         <span>05</span>
         <i class="fas fa-hiking"></i>
         <h3>affordable hotels</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+        <p>Descripiton.</p>
       </div>
 
       <div class="box" data-aos="zoo-in">
         <span>01</span>
         <i class="fas fa-bullhorn"></i>
         <h3>affordable hotels</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+        <p>Descripiton.</p>
       </div>
 
     </div>

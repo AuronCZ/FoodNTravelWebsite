@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Complete Responsive Travel Agency Website Design</title>
+  <title>Travel.</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
@@ -19,7 +19,7 @@
   <!-- header section startss  -->
   <header class="header">
 
-    <a href="#" class="logo"><i class="fas fa-paper-plane"></i> travel </a>
+    <a href="#" class="logo"><i class="fas fa-paper-plane"></i> travel. </a>
 
     <form action="" class="search-form">
       <input type="search" name="" id="searchBox" placeholder="search here...">
@@ -59,7 +59,7 @@
     </div>
 
     <div class="content" data-aos="fade-up">
-      <h3>adventure is wortwhile</h3>
+      <h3>adventure is worthwhile</h3>
       <a href="book.php" class="btn">explore now</a>
     </div>
 
@@ -81,7 +81,7 @@
         </div>
         <div class="content">
           <div class="price">290.0<span>350.99</span></div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+          <p>Descripiton..</p>
           <a href="book.php" class="btn"> book now </a>
         </div>
       </div>
@@ -93,7 +93,7 @@
         </div>
         <div class="content">
           <div class="price">290.0<span>350.99</span></div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+          <p>Descripiton.</p>
           <a href="book.php" class="btn"> book now </a>
         </div>
       </div>
@@ -105,7 +105,7 @@
         </div>
         <div class="content">
           <div class="price">290.0<span>350.99</span></div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+          <p>Descripiton.</p>
           <a href="book.php" class="btn"> book now </a>
         </div>
       </div>
@@ -117,7 +117,7 @@
         </div>
         <div class="content">
           <div class="price">290.0<span>350.99</span></div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+          <p>Descripiton.</p>
           <a href="book.php" class="btn"> book now </a>
         </div>
       </div>
@@ -129,7 +129,7 @@
         </div>
         <div class="content">
           <div class="price">290.0<span>350.99</span></div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+          <p>Descripiton.</p>
           <a href="book.php" class="btn"> book now </a>
         </div>
       </div>
@@ -141,7 +141,7 @@
         </div>
         <div class="content">
           <div class="price">290.0<span>350.99</span></div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+          <p>Descripiton.</p>
           <a href="book.php" class="btn"> book now </a>
         </div>
       </div>
@@ -162,42 +162,42 @@
         <span>01</span>
         <i class="fas fa-hotel"></i>
         <h3>affordable hotels</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+        <p>Descripiton.</p>
       </div>
 
       <div class="box" data-aos="zoo-in">
         <span>02</span>
         <i class="fas fa-plane"></i>
         <h3>affordable hotels</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+        <p>Descripiton.</p>
       </div>
 
       <div class="box" data-aos="zoo-in">
         <span>03</span>
         <i class="fas fa-utensils"></i>
         <h3>affordable hotels</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+        <p>Descripiton.</p>
       </div>
 
       <div class="box" data-aos="zoo-in">
         <span>04</span>
         <i class="fas fa-globe"></i>
         <h3>affordable hotels</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+        <p>Descripiton.</p>
       </div>
 
       <div class="box" data-aos="zoo-in">
         <span>05</span>
         <i class="fas fa-hiking"></i>
         <h3>affordable hotels</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+        <p>Descripiton.</p>
       </div>
 
       <div class="box" data-aos="zoo-in">
         <span>01</span>
         <i class="fas fa-bullhorn"></i>
         <h3>affordable hotels</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+        <p>Descripiton.</p>
       </div>
 
     </div>
