@@ -16,7 +16,7 @@
 
 </head>
 <body>
-  <!-- header section starts  -->
+  <!-- header section startss  -->
   <header class="header">
 
     <a href="#" class="logo"><i class="fas fa-paper-plane"></i> travel </a>
