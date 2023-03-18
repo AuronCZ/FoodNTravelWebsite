@@ -47,11 +47,11 @@ $all_contact = $conn->query($sql);
   <div class="box" data-aos="zoo-in">
     <span><?php echo $row["id"];?></span>
     <i class="fas fa-globe"></i>
-    <h3><?php echo $row["name"];?></h3>
-    <p><?php echo $row["email"];?></p>
-    <p><?php echo $row["number"];?></p>
-    <p><?php echo $row["subject"];?></p>
-    <p><?php echo $row["message"];?></p>
+    <h3>Name :<?php echo $row["name"];?></h3>
+    <p>Email :<?php echo $row["email"];?></p>
+    <p>Number :<?php echo $row["number"];?></p>
+    <p>Subject :<?php echo $row["subject"];?></p>
+    <p>Message :<?php echo $row["message"];?></p>
   </div>
 
 </div>
