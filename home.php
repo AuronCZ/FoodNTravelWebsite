@@ -1,5 +1,25 @@
+<?php
+
+@include 'config.php';
+
+
+$sql1 = "Select * From packages";
+$all_packages = $conn->query($sql1);
+
+$sql2 = "Select * From services";
+$all_services = $conn->query($sql2);
+
+$sql3 = "Select * From review";
+$all_review = $conn->query($sql3);
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +35,7 @@
   <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
   <!-- header section starts  -->
   <header class="header">
@@ -60,7 +81,7 @@
     </div>
 
     <div class="content" data-aos="fade-up">
-      <h3>adventure is worthwhile</h3>     
+      <h3>adventure is worthwhile</h3>
       <a href="login_form.php" class="btn">explore now</a>
     </div>
 
@@ -69,84 +90,30 @@
 
 
   <!-- packages section starts  -->
+
   <section class="packages" id="packages">
 
     <h1 class="heading"> our <span>packages</span></h1>
 
+
     <div class="box-container">
 
-      <div class="box" data-aos="fade-up">
-        <div class="image">
-          <img src="images/p-1.jpg" alt="">
-          <h3><i class="fas fa-map-marker-alt"></i> mumbai </h3>
-        </div>
-        <div class="content">
-          <div class="price">290.0<span>350.99</span></div>
-          <p>Descripiton.</p>
-          <a href="login_form.php" class="btn"> book now </a>
-        </div>
-      </div>
+      <?php
+      while ($row1 = mysqli_fetch_assoc($all_packages)) {
+      ?>
 
-      <div class="box" data-aos="fade-up">
-        <div class="image">
-          <img src="images/p-2.jpg" alt="">
-          <h3><i class="fas fa-map-marker-alt"></i> hawaii </h3>
+        <div class="box" data-aos="fade-up">
+          <div class="image">
+            <?php echo '<img src="images/' . $row1["img"] . '">'; ?>
+            <h3><i class="fas fa-map-marker-alt"></i><?php echo $row1["name"]; ?></h3>
+          </div>
+          <div class="content">
+            <div class="price"><?php echo $row1["price"]; ?></div>
+            <p><?php echo $row1["description"]; ?></p>
+            <a href="login_form.php" class="btn"> book now </a>
+          </div>
         </div>
-        <div class="content">
-          <div class="price">290.0<span>350.99</span></div>
-          <p>Descripiton.</p>
-          <a href="login_form.php" class="btn"> book now </a>
-        </div>
-      </div>
-
-      <div class="box" data-aos="fade-up">
-        <div class="image">
-          <img src="images/p-3.jpg" alt="">
-          <h3><i class="fas fa-map-marker-alt"></i> sydney </h3>
-        </div>
-        <div class="content">
-          <div class="price">290.0<span>350.99</span></div>
-          <p>Descripiton.</p>
-          <a href="login_form.php" class="btn"> book now </a>
-        </div>
-      </div>
-
-      <div class="box" data-aos="fade-up">
-        <div class="image">
-          <img src="images/p-4.jpg" alt="">
-          <h3><i class="fas fa-map-marker-alt"></i> paris </h3>
-        </div>
-        <div class="content">
-          <div class="price">290.0<span>350.99</span></div>
-          <p>Descripiton.</p>
-          <a href="login_form.php" class="btn"> book now </a>
-        </div>
-      </div>
-
-      <div class="box" data-aos="fade-up">
-        <div class="image">
-          <img src="images/p-5.jpg" alt="">
-          <h3><i class="fas fa-map-marker-alt"></i> tokyo </h3>
-        </div>
-        <div class="content">
-          <div class="price">290.0<span>350.99</span></div>
-          <p>Descripiton.</p>
-          <a href="login_form.php" class="btn"> book now </a>
-        </div>
-      </div>
-
-      <div class="box" data-aos="fade-up">
-        <div class="image">
-          <img src="images/p-6.jpg" alt="">
-          <h3><i class="fas fa-map-marker-alt"></i> egypt </h3>
-        </div>
-        <div class="content">
-          <div class="price">290.0<span>350.99</span></div>
-          <p>Descripiton.</p>
-          <a href="login_form.php" class="btn"> book now </a>
-        </div>
-      </div>
-
+      <?php } ?>
     </div>
 
   </section>
@@ -159,48 +126,27 @@
 
     <div class="box-container">
 
-      <div class="box" data-aos="zoo-in">
-        <span>01</span>
-        <i class="fas fa-hotel"></i>
-        <h3>affordable hotels</h3>
-        <p>Descripiton.</p>
-      </div>
+      <?php
+      while ($row2 = mysqli_fetch_assoc($all_services)) {
+      ?>
 
-      <div class="box" data-aos="zoo-in">
-        <span>02</span>
-        <i class="fas fa-plane"></i>
-        <h3>affordable hotels</h3>
-        <p>Descripiton.</p>
-      </div>
-
-      <div class="box" data-aos="zoo-in">
-        <span>03</span>
-        <i class="fas fa-utensils"></i>
-        <h3>affordable hotels</h3>
-        <p>Descripiton.</p>
-      </div>
-
-      <div class="box" data-aos="zoo-in">
-        <span>04</span>
-        <i class="fas fa-globe"></i>
-        <h3>affordable hotels</h3>
-        <p>Descripiton.</p>
-      </div>
-
-      <div class="box" data-aos="zoo-in">
-        <span>05</span>
-        <i class="fas fa-hiking"></i>
-        <h3>affordable hotels</h3>
-        <p>Descripiton.</p>
-      </div>
-
-      <div class="box" data-aos="zoo-in">
-        <span>01</span>
-        <i class="fas fa-bullhorn"></i>
-        <h3>affordable hotels</h3>
-        <p>Descripiton.</p>
-      </div>
-
+        <div class="box" data-aos="zoo-in">
+          <span><?php echo $row2["id"]; ?></span>
+          <?php if ($row2["srv"] === 'hotel') {
+            echo '<i class="fas fa-hotel"></i>';
+          } elseif ($row2["srv"] == 'plane') {
+            echo '<i class="fas fa-plane"></i>';
+          } elseif ($row2["srv"] == 'utensils') {
+            echo '<i class="fas fa-utensils"></i>';
+          } elseif ($row2["srv"] == 'globe') {
+            echo '<i class="fas fa-globe"></i>';
+          } else {
+            echo '<i class="fas fa-hiking"></i>';
+          }; ?>
+          <h3><?php echo $row2["name"]; ?></h3>
+          <p><?php echo $row2["description"]; ?></p>
+        </div>
+      <?php } ?>
     </div>
 
   </section>
@@ -215,7 +161,7 @@
     <div class="swiper-container review-slider" data-aos="zoom-in">
 
       <div class="swiper-wrapper">
-  
+
         <div class="swiper-slide slide">
           <img src="images/pic-1.png" alt="">
           <h3>john deo</h3>
@@ -228,7 +174,7 @@
             <i class="fas fa-star-half-alt"></i>
           </div>
         </div>
-  
+
         <div class="swiper-slide slide">
           <img src="images/pic-2.png" alt="">
           <h3>john deo</h3>
@@ -241,7 +187,7 @@
             <i class="fas fa-star-half-alt"></i>
           </div>
         </div>
-  
+
         <div class="swiper-slide slide">
           <img src="images/pic-3.png" alt="">
           <h3>john deo</h3>
@@ -254,7 +200,7 @@
             <i class="fas fa-star-half-alt"></i>
           </div>
         </div>
-  
+
         <div class="swiper-slide slide">
           <img src="images/pic-4.png" alt="">
           <h3>john deo</h3>
@@ -267,7 +213,7 @@
             <i class="fas fa-star-half-alt"></i>
           </div>
         </div>
-  
+
       </div>
 
       <div class="swiper-pagination"></div>
@@ -304,12 +250,12 @@
 
 
       <div class="box" data-aos="fade-up">
-          <h3>follow us</h3>
-          <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-          <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-          <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-          <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
-          <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+        <h3>follow us</h3>
+        <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+        <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+        <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+        <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+        <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
       </div>
     </div>
 
@@ -325,9 +271,10 @@
 
   <script>
     AOS.init({
-        duration:800,
-        delay:100
+      duration: 800,
+      delay: 100
     });
   </script>
 </body>
+
 </html>
